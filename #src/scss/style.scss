@@ -31,6 +31,7 @@ header{
   height: 120px;
 }
 #my-video{
+  max-width: 100%;
   z-index: -1;
   position: fixed;
 }
@@ -115,7 +116,7 @@ header{
 .menu-item:hover {
   margin-left: 30%;
   padding-left: 20%;
-  background-color: rgba(200, 236, 252, 0.8);
+  background-color: rgba(200, 236, 252, 0.2);
   max-width: 50%;
   border-radius: 15px;
   // text-align: center;
@@ -139,3 +140,4 @@ header{
   align-items: flex-start;
   gap: 10%;
 }
+

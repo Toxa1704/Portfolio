@@ -142,7 +142,6 @@ header {
 .menu-item {
   display: block;
   padding: 12px 24px;
-  color: #333;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   text-decoration: none;
@@ -184,7 +183,7 @@ header {
   display: flex;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
-  justify-content: start;
+  justify-content: flex-start;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
